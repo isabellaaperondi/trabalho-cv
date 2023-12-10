@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Cabeçalho com imports de arquivos e fontes -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV_online</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar-->
+    <header id="header">
+      <h1>Portifólio pessoal</h1>
+      <nav id="navbar">
+        <a href="#section-sobre">Sobre mim</a>
+        <a href="#section-formacao">Formação</a>
+        <a href="#section-portifolio">Portifólio</a>
+        <a href="#section-contato">Contato</a>
+      </nav>
+    </header>
+
+    <!-- Seções -->
+    <main id="conteudo">
+      <!-- Sobre mim -->
+      <section class="section-info" id="section-sobre">
+        <h2>Sobre mim</h2>
+        <div class="sobre-mim-content">
+          <img
+            src="imagens/isabellaPerfil.jpeg"
+            alt="Foto"
+            class="sobre-mim-jpg"
+          />
+          <div class="sobre-mim-texto">
+            <p>
+              Olá, meu nome é Isabella Adona Perondi. Estou começando agora
+              minha experiência em programação.
+            </p>
+            <p>
+              Meu objetivo é atuar na área de Desenvolvimento de Software. Em
+              meu tempo livre, gosto de assistir filmes, estudar e fazer
+              esportes.
+            </p>
+            <p>
+              Sinta-se à vontade para entrar em contato comigo através da seção
+              de contato abaixo para conversas sobre trabalho, perguntas, etc...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formação -->
+      <section class="section-info" id="section-formacao">
+        <h2>Formação</h2>
+        <div class="formacao-item">
+          <h3>1. Engenharia de Bioprocessos e Biotecnologia</h3>
+          <h4>
+            Universidade Tecnológica Federal do Paraná - Campus Dois Vizinhos -
+            Graduação
+          </h4>
+          <p class="formacao-periodo">2016 - 2021</p>
+          <p>
+            Engenharia de Bioprocessos e Biotecnologia é uma graduação que
+            combina os princípios da engenharia com as ciências biológicas para
+            desenvolver processos e produtos biotecnológicos.
+          </p>
+        </div>
+
+        <div class="formacao-item">
+          <h3>2. Engenharia de Software</h3>
+          <h4>Uninter - Graduação</h4>
+          <p class="formacao-periodo">2023 - Em Andamento</p>
+          <p>
+            Engenharia de Software é um campo da computação dedicado ao
+            desenvolvimento de softwares de alta qualidade. O curso abrange
+            métodos de desenvolvimento, operação e manutenção de software,
+            algoritmos, estruturas de dados, design de software, gerenciamento
+            de projetos e etc.
+          </p>
+        </div>
+      </section>
+
+      <!-- Portifólio -->
+      <section class="section-info" id="section-portifolio">
+        <h2>Portfólio</h2>
+        <div class="portifolio-container">
+          <div class="portifolio-item">
+            <h3>Github</h3>
+            <p>Perfil do Github.</p>
+            <a href="http://github.com/isabellaaperondi" target="_blank"
+              >Ver Perfil do Github</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section class="section-info" id="section-contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

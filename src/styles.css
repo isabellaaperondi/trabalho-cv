@@ -1,0 +1,188 @@
+/* Estilos Globais */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  color: #333;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Cabeçalho */
+#header {
+  background-color: #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Links */
+a {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+}
+
+a:hover {
+  border-color: black;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+}
+
+/* Seção Conteúdo */
+#conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------ Seção Sobre mim ------------ */
+#section-sobre {
+  padding: 120px 20px 20px 20px ;
+  background-color: #fff;
+}
+
+.sobre-mim-jpg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* ------------ Seção Formação ------------ */
+#section-formacao {
+  background-color: #fff;
+  padding: 120px 20px 20px 20px;
+}
+
+.formacao-item {
+  margin-bottom: 20px;
+}
+
+.formacao-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.formacao-item .formacao-periodo {
+  font-style: italic;
+  color: #666;
+}
+
+.formacao-item p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* ------------ Seção Portifólio ------------ */
+
+#section-portifolio {
+  background-color: #fff;
+  padding: 120px 20px 20px 20px;
+  width: 80%;
+}
+
+.portifolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portifolio-item h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.portifolio-item p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.portifolio-item a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.portifolio-item a:hover {
+  background-color: #45a049;
+}
+
+
+/* ------------ Contato ------------ */
+#section-contato {
+  padding: 120px 20px 20px 20px ;
+  background-color: #fff;
+}
+
+#form-contato .form-group {
+  margin-bottom: 15px;
+}
+
+#form-contato .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos de Inputs e Textarea */
+input, textarea {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Botões */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
